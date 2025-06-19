@@ -733,15 +733,7 @@ export default function CommunityPage() {
             <div
               className={`w-full border-l ${isDarkMode ? "border-[#27272a] bg-[#09090b]" : "border-gray-200 bg-white"} h-full overflow-y-auto`}
             >
-              {/* Header */}
-              <div className="flex w-full">
-                <div
-                  className={`flex-1 h-[63.5px] flex items-center justify-center space-x-2 ${isDarkMode ? "bg-[#09090b] text-white border-b-2 border-purple-500" : "bg-white text-gray-900 border-b-2 border-purple-600"}`}
-                >
-                  <i className="bi bi-people"></i>
-                  <span className="font-medium">Membros</span>
-                </div>
-              </div>
+             
 
               <div className="p-4">
                 <div className="space-y-4">
