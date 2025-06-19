@@ -257,7 +257,7 @@ export default function Component() {
     return badges[position % badges.length]
   }
 
-  // Função para obter bandeira do  baseado na posição
+  // Função para obter bandeira do país baseado na posição
   const getCountryFlag = (position: number) => {
     const flags = [
       "/flags/brazil.png",
@@ -567,7 +567,7 @@ export default function Component() {
                           }`}
                           onClick={() => handleMenuItemClick("regiao")}
                         >
-                          <span className="text-black">País</span>
+                          <span className="text-black">Região</span>
                         </button>
                         <button
                           className={`w-full text-left px-4 py-2 hover:bg-orange-400/20 transition-colors ${
