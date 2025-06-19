@@ -565,7 +565,7 @@ export default function Component() {
                           className={`w-full text-left px-4 py-2 hover:bg-orange-400/20 transition-colors ${
                             activeTab === "regiao" ? "bg-orange-400/30 font-medium" : ""
                           }`}
-                          onClick={() => handleMenuItemClick("regiao")}
+                          onClick={() => handleMenuItemClick("pais")}
                         >
                           <span className="text-black">País</span>
                         </button>
