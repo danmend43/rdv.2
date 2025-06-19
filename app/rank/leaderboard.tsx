@@ -257,7 +257,7 @@ export default function Component() {
     return badges[position % badges.length]
   }
 
-  // Função para obter bandeira do país baseado na posição
+  // Função para obter bandeira do  baseado na posição
   const getCountryFlag = (position: number) => {
     const flags = [
       "/flags/brazil.png",
@@ -437,8 +437,8 @@ export default function Component() {
         return "Pontos"
       case "amigos":
         return "Amigos"
-      case "País":
-        return "País"
+      case "regiao":
+        return "Região"
       case "presentes":
         return "Presentes"
       case "conquistas":
@@ -459,7 +459,7 @@ export default function Component() {
       case "amigos":
         return "Ranking Amigos"
       case "regiao":
-        return "Ranking País"
+        return "Ranking Região"
       case "presentes":
         return "Ranking Presentes"
       case "conquistas":
@@ -565,7 +565,7 @@ export default function Component() {
                           className={`w-full text-left px-4 py-2 hover:bg-orange-400/20 transition-colors ${
                             activeTab === "regiao" ? "bg-orange-400/30 font-medium" : ""
                           }`}
-                          onClick={() => handleMenuItemClick("país")}
+                          onClick={() => handleMenuItemClick("regiao")}
                         >
                           <span className="text-black">País</span>
                         </button>
