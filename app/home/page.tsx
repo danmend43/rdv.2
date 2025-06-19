@@ -810,7 +810,7 @@ export default function HomePage() {
                               <h3
                                 className={`text-xl font-bold ${isDarkMode ? "text-white" : "text-gray-900"} tracking-tight`}
                               >
-                                Trending Now.
+                                Clips
                               </h3>
                             </div>
                             <button
