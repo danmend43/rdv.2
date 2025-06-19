@@ -437,8 +437,8 @@ export default function Component() {
         return "Pontos"
       case "amigos":
         return "Amigos"
-      case "regiao":
-        return "Região"
+      case "pais":
+        return "País"
       case "presentes":
         return "Presentes"
       case "conquistas":
@@ -458,8 +458,8 @@ export default function Component() {
         return "Ranking Pontos"
       case "amigos":
         return "Ranking Amigos"
-      case "regiao":
-        return "Ranking Região"
+      case "pais":
+        return "Ranking País"
       case "presentes":
         return "Ranking Presentes"
       case "conquistas":
@@ -567,7 +567,7 @@ export default function Component() {
                           }`}
                           onClick={() => handleMenuItemClick("regiao")}
                         >
-                          <span className="text-black">Região</span>
+                          <span className="text-black">País</span>
                         </button>
                         <button
                           className={`w-full text-left px-4 py-2 hover:bg-orange-400/20 transition-colors ${
